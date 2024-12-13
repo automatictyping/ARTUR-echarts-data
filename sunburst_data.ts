@@ -1,6 +1,63 @@
 import { useI18n } from "vue-i18n";
+import { computed } from "vue";
 
 const { t } = useI18n();
+/*
+ *** How to update the origianl data:
+ *** 1. the variable "example" is the original data, and the "updated_example" is the updated data.
+ *** 2. check echarts_options.json file for finding the text to substitute the original text.
+ *** 3. the data need to be updated is variable "sunburstData", you can see that some of the "name" attributes have been substitued as `t("some_text")`,
+ *** and you need to change it to `computed(()=>t("some_text"))`
+ *** 4. The value need to be changed is "name". The other values should be kept as the same.
+ */
+const example = {
+  name: "ECO-\nNOMIC",
+  children: [
+    {
+      name: "Economic activities",
+      children: [
+        {
+          name: "Diverse economic base",
+          itemStyle: { opacity: 0.6 },
+          children: [
+            {
+              value: 2,
+              itemStyle: { opacity: 0.3 },
+              tooltip: { show: false },
+              emphasis: { disabled: true },
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+// t("echarts.economic.name") = "ECO-\nNOMIC",
+// and the computed() property is a reactive property used to compute, updating automatically when those dependencies change.
+const updated_example = {
+  name: computed(() => t("echarts.economic.name")),
+  children: [
+    {
+      name: computed(() => t("echarts.economic.1.name")),
+      children: [
+        {
+          name: computed(() => t("echarts.economic.1.1")),
+          itemStyle: { opacity: 0.6 },
+          children: [
+            {
+              value: 2,
+              itemStyle: { opacity: 0.3 },
+              tooltip: { show: false },
+              emphasis: { disabled: true },
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+// The data need to be updated:
 const sunburstData = {
   name: t("ecahrts.name"),
   children: [

@@ -1,4 +1,5 @@
 import { useI18n } from "vue-i18n";
+import { computed } from "vue";
 
 const { t } = useI18n();
 enum SANKEYLEVELS {
@@ -7,17 +8,53 @@ enum SANKEYLEVELS {
   LEVEL3 = 1.8,
   LEVEL4 = 2,
 }
+/*
+ *** I recommend that you start with sunburst_data.ts to get familiar with data.
+ *** How to update the data:
+ *** 1. the variable "example" is the original data, and the "updated_example" is the updated data.
+ *** 2. check echarts_options.json file for finding the text to substitute the original text.
+ *** 3. The values need to be changed are "name", "target", "source". The other values should be kept as the same.
+ */
+// Example 1
+const example1 = { name: "Robustness", depth: SANKEYLEVELS.LEVEL4 };
+const updated_example1 = {
+  name: computed(() => t("echarts.capacities.Robustness")),
+  depth: SANKEYLEVELS.LEVEL4,
+};
+// Example 2
+const example2 = {
+  name: "Safe & affordable housing",
+  itemStyle: { color: "#91CC75" },
+  depth: SANKEYLEVELS.LEVEL2,
+};
+const updated_example2 = {
+  name: computed(() => t("echarts.social.1.1")),
+  itemStyle: { color: "#91CC75" },
+  depth: SANKEYLEVELS.LEVEL2,
+};
+// Example 3
+const example3 = {
+  source: "Physical",
+  target: "Natural elements, mangrove, hills, rivers, plantations, among others",
+  value: 1,
+};
+const updated_example3 = {
+  source: computed(() => t("echarts.physical.name")),
+  target: computed(() => t("echarts.physical.2.2")),
+  value: 1,
+};
+// The data need to be updated
 const data = [
   { name: "Robustness", depth: SANKEYLEVELS.LEVEL4 },
   { name: "Redundancy", depth: SANKEYLEVELS.LEVEL4 },
 
   { name: "Diversity", depth: SANKEYLEVELS.LEVEL4 },
   { name: "Integration", depth: SANKEYLEVELS.LEVEL3 },
-  { name: "Transparent", depth: SANKEYLEVELS.LEVEL3 },
+  { name: "Transparency", depth: SANKEYLEVELS.LEVEL3 },
   { name: "Resourcefulness", depth: SANKEYLEVELS.LEVEL4 },
-  { name: "Inclusive", depth: SANKEYLEVELS.LEVEL3 },
-  { name: "Reflective", depth: SANKEYLEVELS.LEVEL3 },
-  { name: "Flexible", depth: SANKEYLEVELS.LEVEL3 },
+  { name: "Inclusiveness", depth: SANKEYLEVELS.LEVEL3 },
+  { name: "Reflectiveness", depth: SANKEYLEVELS.LEVEL3 },
+  { name: "Flexiblity", depth: SANKEYLEVELS.LEVEL3 },
   { name: "Social", itemStyle: { color: "#91CC75" }, depth: SANKEYLEVELS.LEVEL1 },
   {
     name: "Safe & affordable housing",
@@ -25,7 +62,7 @@ const data = [
     depth: SANKEYLEVELS.LEVEL2,
   },
   {
-    name: "Inclusive access to safe drinking water",
+    name: "Inclusiveness access to safe drinking water",
     itemStyle: { color: "#91CC75" },
     depth: SANKEYLEVELS.LEVEL2,
   },
@@ -187,7 +224,7 @@ const data = [
     depth: SANKEYLEVELS.LEVEL2,
   },
   {
-    name: "Inclusive labour policies",
+    name: "Inclusiveness labour policies",
     itemStyle: { color: "#FAC858" },
     depth: SANKEYLEVELS.LEVEL2,
   },
@@ -514,7 +551,7 @@ const data = [
     depth: SANKEYLEVELS.LEVEL2,
   },
   {
-    name: "Flexible infrastructure services",
+    name: "Flexiblity infrastructure services",
     itemStyle: { color: "#73C0DE" },
     depth: SANKEYLEVELS.LEVEL2,
   },
@@ -695,17 +732,17 @@ const links = [
   },
   {
     source: "Physical",
-    target: "Flexible infrastructure services",
+    target: "Flexiblity infrastructure services",
     value: 1,
   },
   {
-    source: "Flexible infrastructure services",
+    source: "Flexiblity infrastructure services",
     target: "Redundancy",
     value: 0.5,
   },
   {
-    source: "Flexible infrastructure services",
-    target: "Flexible",
+    source: "Flexiblity infrastructure services",
+    target: "Flexiblity",
     value: 0.5,
   },
   {
@@ -861,7 +898,7 @@ const links = [
   },
   // {
   //   source: "Topography: elevation, water bodies",
-  //   target: "Transparent",
+  //   target: "Transparency",
   //   value: 1,
   // },
   {
@@ -876,7 +913,7 @@ const links = [
   },
   {
     source: "Hazard mapping and monitoring (common awareness)",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 0.5,
   },
   {
@@ -903,7 +940,7 @@ const links = [
   },
   {
     source: "Hazard mapping and monitoring (clear and regular mapping)",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 0.5,
   },
   {
@@ -966,13 +1003,13 @@ const links = [
   {
     source:
       "Changes in intensity, frequency, and location of hazards based on hazard modeling",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 0.25,
   },
   {
     source:
       "Changes in intensity, frequency, and location of hazards based on hazard modeling",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -1005,7 +1042,7 @@ const links = [
   },
   {
     source: "Comprehensive hazard monitoring and risk assessment",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 0.33,
   },
   {
@@ -1030,7 +1067,7 @@ const links = [
   },
   {
     source: "First responder equipment, with military or civilian back up",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -1053,7 +1090,7 @@ const links = [
   {
     source:
       "Food, shelter, staple goods and fuel to respond to emergency of disaster scenarios",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.33,
   },
   {
@@ -1074,7 +1111,7 @@ const links = [
   },
   {
     source: "Vulnerability and risk",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 0.25,
   },
   {
@@ -1107,7 +1144,7 @@ const links = [
   },
   {
     source: "City boundaries and sub-municipal boundaries (e.g., districts, wards)",
-    target: "Transparent",
+    target: "Transparency",
     value: 0.5,
   },
   {
@@ -1117,7 +1154,7 @@ const links = [
   },
   {
     source: "Secure technology networks",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.5,
   },
   {
@@ -1142,12 +1179,12 @@ const links = [
   },
   {
     source: "Diverse and affordable transport networks",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 0.25,
   },
   {
     source: "Diverse and affordable transport networks",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -1162,7 +1199,7 @@ const links = [
   },
   {
     source: "Adequate continuity for critical assets & services",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.33,
   },
   {
@@ -1213,7 +1250,7 @@ const links = [
   },
   {
     source: "Effective emergency response services",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -1268,7 +1305,7 @@ const links = [
   },
   {
     source: "Well-managed public finances",
-    target: "Transparent",
+    target: "Transparency",
     value: 0.5,
   },
   {
@@ -1283,7 +1320,7 @@ const links = [
   },
   {
     source: "Informal development areas",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 0.33,
   },
   {
@@ -1348,7 +1385,7 @@ const links = [
   },
   {
     source: "Building codes or standards address hazards and risks",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.5,
   },
   {
@@ -1368,7 +1405,7 @@ const links = [
   },
   {
     source: "FAIR Data sharing to enhance resilience",
-    target: "Transparent",
+    target: "Transparency",
     value: 1,
   },
   {
@@ -1392,7 +1429,7 @@ const links = [
   {
     source:
       "Plan for post-event recovery and reconstruction, including economic reboot, societal aspects",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 0.33,
   },
   {
@@ -1402,7 +1439,7 @@ const links = [
   },
   {
     source: "Proactive corruption prevention",
-    target: "Transparent",
+    target: "Transparency",
     value: 1,
   },
   {
@@ -1468,7 +1505,7 @@ const links = [
   {
     source:
       "Vulnerability mapping and monitoring (vulnerable groups and assets, dissaster scenario analysis)",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 0.5,
   },
   {
@@ -1486,7 +1523,7 @@ const links = [
   {
     source:
       "Do post-event assessment processes incorporate failure analyses and the ability to capture lessons learned that then feed into design and delivery of rebuilding projects?",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 0.5,
   },
   {
@@ -1501,7 +1538,7 @@ const links = [
   },
   {
     source: "Early warning system and reaching level",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 0.5,
   },
   {
@@ -1546,7 +1583,7 @@ const links = [
   {
     source:
       "Emergency operations centre: interoperability and inter-agency implementation and coordination",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 0.25,
   },
   {
@@ -1571,7 +1608,7 @@ const links = [
   },
   {
     source: "Disaster management / preparedness / emergency response plan",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -1596,7 +1633,7 @@ const links = [
   },
   {
     source: "Appropriately land use planning considering risk, hazards and vulnerability",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -1626,7 +1663,7 @@ const links = [
   {
     source:
       "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -1636,12 +1673,12 @@ const links = [
   },
   {
     source: "Projected changes in location of vulnerable populations",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 0.5,
   },
   {
     source: "Projected changes in location of vulnerable populations",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.5,
   },
   {
@@ -1666,7 +1703,7 @@ const links = [
   },
   {
     source: "Adequate access to quality healthcare",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 0.25,
   },
   {
@@ -1691,7 +1728,7 @@ const links = [
   },
   {
     source: "Emergency medical care",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -1711,7 +1748,7 @@ const links = [
   },
   {
     source: "Robust public health systems",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.33,
   },
   {
@@ -1736,7 +1773,7 @@ const links = [
   },
   {
     source: "Security services: fire services, police stations, etc.",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -1776,7 +1813,7 @@ const links = [
   },
   {
     source: "Comprehensive government emergency management",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -1786,12 +1823,12 @@ const links = [
   },
   {
     source: "Consultative planning process",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 0.33,
   },
   {
     source: "Consultative planning process",
-    target: "Transparent",
+    target: "Transparency",
     value: 0.33,
   },
   {
@@ -1821,7 +1858,7 @@ const links = [
   },
   {
     source: "Proactive multi-stakeholder collaboration",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 0.25,
   },
   {
@@ -1841,7 +1878,7 @@ const links = [
   },
   {
     source: "Appropriate government decision-making",
-    target: "Transparent",
+    target: "Transparency",
     value: 0.33,
   },
   {
@@ -1914,7 +1951,7 @@ const links = [
   },
   {
     source: "Businesses with a documented business continuity plan",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.5,
   },
   {
@@ -1988,12 +2025,12 @@ const links = [
   },
   {
     source: "Economic",
-    target: "Inclusive labour policies",
+    target: "Inclusiveness labour policies",
     value: 1,
   },
   {
-    source: "Inclusive labour policies",
-    target: "Inclusive",
+    source: "Inclusiveness labour policies",
+    target: "Inclusiveness",
     value: 1,
   },
   {
@@ -2015,7 +2052,7 @@ const links = [
   },
   {
     source: "Changes in the overall city's boundaries",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 1,
   },
   {
@@ -2040,7 +2077,7 @@ const links = [
   },
   {
     source: "Financial plan and budget for resilience, including contingency funds",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.25,
   },
   {
@@ -2050,7 +2087,7 @@ const links = [
   },
   {
     source: "Projected changes to population densities and economic activity",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 1,
   },
   {
@@ -2060,7 +2097,7 @@ const links = [
   },
   {
     source: "Densities",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 1,
   },
   {
@@ -2090,7 +2127,7 @@ const links = [
   },
   {
     source: "Comprehensive business continuity planning",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.33,
   },
   {
@@ -2110,7 +2147,7 @@ const links = [
   },
   {
     source: "Social",
-    target: "Inclusive access to safe drinking water",
+    target: "Inclusiveness access to safe drinking water",
     value: 1,
   },
   {
@@ -2176,7 +2213,7 @@ const links = [
   },
   {
     source: "Strong city-wide identity & culture",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
@@ -2230,7 +2267,7 @@ const links = [
   {
     source:
       "Major community buildings, religious buildings, and historic/cultural assets",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
@@ -2240,7 +2277,7 @@ const links = [
   },
   {
     source: "Safe places/havens and the evacuation routes",
-    target: "Transparent",
+    target: "Transparency",
     value: 1,
   },
   {
@@ -2273,7 +2310,7 @@ const links = [
   },
   {
     source: "Awareness of equipment and supply needed + provision",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.5,
   },
   {
@@ -2293,7 +2330,7 @@ const links = [
   },
   {
     source: "Effective systems to deter crime",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.33,
   },
   {
@@ -2308,7 +2345,7 @@ const links = [
   },
   {
     source: "High levels of crime are observed",
-    target: "Flexible",
+    target: "Flexiblity",
     value: 0.5,
   },
   {
@@ -2352,33 +2389,33 @@ const links = [
   },
   {
     source: "Public education towards awareness of hazard, risk and disaster information",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
     source:
       "Citizen engagement and communications in relation to disaster resilience and recovery",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
     source: "Exchange knowledge and learn from other cities facing similar challenges",
-    target: "Reflective",
+    target: "Reflectiveness",
     value: 1,
   },
   {
     source: "Actively engaged citizens",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
     source: "Cohesive communities",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
     source: "Local community support",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
@@ -2388,17 +2425,17 @@ const links = [
   },
   {
     source: "Effective sanitation",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 0.5,
   },
   {
     source: "Adequate education for all",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
     source: "Widespread community awareness & preparedness",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 0.5,
   },
   {
@@ -2408,7 +2445,7 @@ const links = [
   },
   {
     source: "Accessible criminal & civil justice",
-    target: "Transparent",
+    target: "Transparency",
     value: 1,
   },
   {
@@ -2429,7 +2466,7 @@ const links = [
   },
   {
     source: "Social services infrastructure, including schools, hospitals, and clinics",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 0.5,
   },
   {
@@ -2439,49 +2476,49 @@ const links = [
   },
   {
     source: "Main public facilities: university, schools, health centres, markets, etc.",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 0.5,
   },
   {
     source: "Training programmes provided to the most vulnerable and at need populations",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
     source: "Accessible criminal and civil justice",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
     source:
       "Grassroots or community organizations participating in pre-event planning and post event response",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
     source: "Sufficient affordable food supply",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
     source: "Accessibility to training materials (language)",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
 
   {
     source: "Safe & affordable housing",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
     source: "Adequate affordable energy supply",
-    target: "Inclusive",
+    target: "Inclusiveness",
     value: 1,
   },
   {
-    source: "Inclusive access to safe drinking water",
-    target: "Inclusive",
+    source: "Inclusiveness access to safe drinking water",
+    target: "Inclusiveness",
     value: 1,
   },
 ];
