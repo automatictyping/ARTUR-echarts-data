@@ -54,7 +54,7 @@ const data = [
   { name: "Resourcefulness", depth: SANKEYLEVELS.LEVEL4 },
   { name: "Inclusiveness", depth: SANKEYLEVELS.LEVEL3 },
   { name: "Reflectiveness", depth: SANKEYLEVELS.LEVEL3 },
-  { name: "Flexiblity", depth: SANKEYLEVELS.LEVEL3 },
+  { name: "Flexibility", depth: SANKEYLEVELS.LEVEL3 },
   { name: "Social", itemStyle: { color: "#91CC75" }, depth: SANKEYLEVELS.LEVEL1 },
   {
     name: "Safe & affordable housing",
@@ -389,7 +389,7 @@ const data = [
     depth: SANKEYLEVELS.LEVEL2,
   },
   {
-    name: "Enforcement and verification of zoning bulding zoning and regulations",
+    name: "Enforcement and verification of zoning building zoning and regulations",
     itemStyle: { color: "#EE6666" },
     depth: SANKEYLEVELS.LEVEL2,
   },
@@ -429,7 +429,7 @@ const data = [
     depth: SANKEYLEVELS.LEVEL2,
   },
   {
-    name: "Vulnerability mapping and monitoring (vulnerable groups and assets, dissaster scenario analysis)",
+    name: "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
     itemStyle: { color: "#EE6666" },
     depth: SANKEYLEVELS.LEVEL2,
   },
@@ -464,7 +464,7 @@ const data = [
     depth: SANKEYLEVELS.LEVEL2,
   },
   {
-    name: "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
+    name: "Locate the various administrative/government buildings in your city, including at the neighborhood level, as applicable",
     itemStyle: { color: "#EE6666" },
     depth: SANKEYLEVELS.LEVEL2,
   },
@@ -551,7 +551,7 @@ const data = [
     depth: SANKEYLEVELS.LEVEL2,
   },
   {
-    name: "Flexiblity infrastructure services",
+    name: "Flexibility infrastructure services",
     itemStyle: { color: "#73C0DE" },
     depth: SANKEYLEVELS.LEVEL2,
   },
@@ -732,17 +732,17 @@ const links = [
   },
   {
     source: "Physical",
-    target: "Flexiblity infrastructure services",
+    target: "Flexibility infrastructure services",
     value: 1,
   },
   {
-    source: "Flexiblity infrastructure services",
+    source: "Flexibility infrastructure services",
     target: "Redundancy",
     value: 0.5,
   },
   {
-    source: "Flexiblity infrastructure services",
-    target: "Flexiblity",
+    source: "Flexibility infrastructure services",
+    target: "Flexibility",
     value: 0.5,
   },
   {
@@ -1009,7 +1009,7 @@ const links = [
   {
     source:
       "Changes in intensity, frequency, and location of hazards based on hazard modeling",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.25,
   },
   {
@@ -1067,7 +1067,7 @@ const links = [
   },
   {
     source: "First responder equipment, with military or civilian back up",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.25,
   },
   {
@@ -1090,7 +1090,7 @@ const links = [
   {
     source:
       "Food, shelter, staple goods and fuel to respond to emergency of disaster scenarios",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.33,
   },
   {
@@ -1154,7 +1154,7 @@ const links = [
   },
   {
     source: "Secure technology networks",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.5,
   },
   {
@@ -1184,7 +1184,7 @@ const links = [
   },
   {
     source: "Diverse and affordable transport networks",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.25,
   },
   {
@@ -1199,7 +1199,7 @@ const links = [
   },
   {
     source: "Adequate continuity for critical assets & services",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.33,
   },
   {
@@ -1250,7 +1250,7 @@ const links = [
   },
   {
     source: "Effective emergency response services",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.25,
   },
   {
@@ -1385,16 +1385,16 @@ const links = [
   },
   {
     source: "Building codes or standards address hazards and risks",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.5,
   },
   {
     source: "Institutional",
-    target: "Enforcement and verification of zoning bulding zoning and regulations",
+    target: "Enforcement and verification of zoning building zoning and regulations",
     value: 1,
   },
   {
-    source: "Enforcement and verification of zoning bulding zoning and regulations",
+    source: "Enforcement and verification of zoning building zoning and regulations",
     target: "Robustness",
     value: 1,
   },
@@ -1493,18 +1493,18 @@ const links = [
   {
     source: "Institutional",
     target:
-      "Vulnerability mapping and monitoring (vulnerable groups and assets, dissaster scenario analysis)",
+      "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
     value: 1,
   },
   {
     source:
-      "Vulnerability mapping and monitoring (vulnerable groups and assets, dissaster scenario analysis)",
+      "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
     target: "Robustness",
     value: 0.5,
   },
   {
     source:
-      "Vulnerability mapping and monitoring (vulnerable groups and assets, dissaster scenario analysis)",
+      "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
     target: "Reflectiveness",
     value: 0.5,
   },
@@ -1608,7 +1608,7 @@ const links = [
   },
   {
     source: "Disaster management / preparedness / emergency response plan",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.25,
   },
   {
@@ -1633,37 +1633,37 @@ const links = [
   },
   {
     source: "Appropriately land use planning considering risk, hazards and vulnerability",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.25,
   },
   {
     source: "Institutional",
     target:
-      "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
+      "Locate the various administrative/government buildings in your city, including at the neighborhood level, as applicable",
     value: 1,
   },
   {
     source:
-      "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
+      "Locate the various administrative/government buildings in your city, including at the neighborhood level, as applicable",
     target: "Robustness",
     value: 0.25,
   },
   {
     source:
-      "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
+      "Locate the various administrative/government buildings in your city, including at the neighborhood level, as applicable",
     target: "Redundancy",
     value: 0.25,
   },
   {
     source:
-      "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
+      "Locate the various administrative/government buildings in your city, including at the neighborhood level, as applicable",
     target: "Integration",
     value: 0.25,
   },
   {
     source:
-      "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
-    target: "Flexiblity",
+      "Locate the various administrative/government buildings in your city, including at the neighborhood level, as applicable",
+    target: "Flexibility",
     value: 0.25,
   },
   {
@@ -1678,7 +1678,7 @@ const links = [
   },
   {
     source: "Projected changes in location of vulnerable populations",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.5,
   },
   {
@@ -1728,7 +1728,7 @@ const links = [
   },
   {
     source: "Emergency medical care",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.25,
   },
   {
@@ -1748,7 +1748,7 @@ const links = [
   },
   {
     source: "Robust public health systems",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.33,
   },
   {
@@ -1773,7 +1773,7 @@ const links = [
   },
   {
     source: "Security services: fire services, police stations, etc.",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.25,
   },
   {
@@ -1813,7 +1813,7 @@ const links = [
   },
   {
     source: "Comprehensive government emergency management",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.25,
   },
   {
@@ -1951,7 +1951,7 @@ const links = [
   },
   {
     source: "Businesses with a documented business continuity plan",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.5,
   },
   {
@@ -1989,7 +1989,7 @@ const links = [
   },
   {
     source: "Economic impact",
-    target: "Rebustness",
+    target: "Robustness",
     value: 1,
   },
 
@@ -2052,7 +2052,7 @@ const links = [
   },
   {
     source: "Changes in the overall city's boundaries",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 1,
   },
   {
@@ -2077,7 +2077,7 @@ const links = [
   },
   {
     source: "Financial plan and budget for resilience, including contingency funds",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.25,
   },
   {
@@ -2087,7 +2087,7 @@ const links = [
   },
   {
     source: "Projected changes to population densities and economic activity",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 1,
   },
   {
@@ -2097,7 +2097,7 @@ const links = [
   },
   {
     source: "Densities",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 1,
   },
   {
@@ -2127,7 +2127,7 @@ const links = [
   },
   {
     source: "Comprehensive business continuity planning",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.33,
   },
   {
@@ -2310,7 +2310,7 @@ const links = [
   },
   {
     source: "Awareness of equipment and supply needed + provision",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.5,
   },
   {
@@ -2330,7 +2330,7 @@ const links = [
   },
   {
     source: "Effective systems to deter crime",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.33,
   },
   {
@@ -2345,7 +2345,7 @@ const links = [
   },
   {
     source: "High levels of crime are observed",
-    target: "Flexiblity",
+    target: "Flexibility",
     value: 0.5,
   },
   {
