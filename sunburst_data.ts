@@ -58,17 +58,18 @@ const updated_example = {
 };
 
 // The data need to be updated:
+// The data need to be updated:
 const sunburstData = {
-  name: t("ecahrts.name"),
+  name: computed(() =>t("ecahrts.name")),
   children: [
     {
-      name: t("echarts.social.name"),
+      name: computed(() => t("echarts.social.name")),
       children: [
         {
-          name: t("echarts.social.1.name"),
+          name: computed(() => t("echarts.social.1.name")),
           children: [
             {
-              name: t("echarts.social.1.1"),
+              name: computed(() => t("echarts.social.1.1")),
               children: [
                 {
                   value: 3,
@@ -79,7 +80,7 @@ const sunburstData = {
               ],
             },
             {
-              name: t("echarts.social.1.2"),
+              name: computed(() => t("echarts.social.1.2")),
               children: [
                 {
                   value: 3,
@@ -90,7 +91,7 @@ const sunburstData = {
               ],
             },
             {
-              name: t("echarts.social.1.3"),
+              name: computed(() => t("echarts.social.1.3")),
               children: [
                 {
                   value: 3,
@@ -101,7 +102,7 @@ const sunburstData = {
               ],
             },
             {
-              name: t("echarts.social.1.4"),
+              name: computed(() => t("echarts.social.1.4")),
               children: [
                 {
                   value: 3,
@@ -112,7 +113,7 @@ const sunburstData = {
               ],
             },
             {
-              name: t("echarts.social.1.5"),
+              name: computed(() => t("echarts.social.1.5")),
               children: [
                 {
                   value: 3,
@@ -125,10 +126,10 @@ const sunburstData = {
           ],
         },
         {
-          name: t("echarts.social.2.name"),
+          name: computed(() => t("echarts.social.2.name")),
           children: [
             {
-              name: t("echarts.social.2.1"),
+              name: computed(() =>t("echarts.social.2.1")),
               children: [
                 {
                   value: 6,
@@ -139,7 +140,7 @@ const sunburstData = {
               ],
             },
             {
-              name: t("echarts.social.2.2"),
+              name: computed(() => t("echarts.social.2.2")),
               children: [
                 {
                   value: 3,
@@ -150,7 +151,7 @@ const sunburstData = {
               ],
             },
             {
-              name: t("echarts.social.2.3"),
+              name: computed(() => t("echarts.social.2.3")),
               children: [
                 {
                   value: 5,
@@ -163,10 +164,10 @@ const sunburstData = {
           ],
         },
         {
-          name: t("echarts.social.3.name"),
+          name: computed(() => t("echarts.social.3.name")),
           children: [
             {
-              name: t("echarts.social.3.1"),
+              name: computed(() => t("echarts.social.3.1")),
               children: [
                 {
                   value: 6,
@@ -177,7 +178,7 @@ const sunburstData = {
               ],
             },
             {
-              name: t("echarts.social.3.2"),
+              name: computed(() => t("echarts.social.3.2")),
               children: [
                 {
                   value: 3,
@@ -188,7 +189,7 @@ const sunburstData = {
               ],
             },
             {
-              name: t("echarts.social.3.3"),
+              name: computed(() => t("echarts.social.3.3")),
               children: [
                 {
                   value: 3,
@@ -199,40 +200,7 @@ const sunburstData = {
               ],
             },
             {
-              name: t("echarts.social.3.4"),
-              children: [
-                {
-                  value: 5,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: t("echarts.social.3.5"),
-              children: [
-                {
-                  value: 7,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: t("echarts.social.3.6"),
-              children: [
-                {
-                  value: 5,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: t("echarts.social.3.7"),
+              name: computed(() => t("echarts.social.3.4")),
               children: [
                 {
                   value: 6,
@@ -243,19 +211,7 @@ const sunburstData = {
               ],
             },
             {
-              name: t("echarts.social.3.8"),
-              children: [
-                {
-                  value: 7,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Local community support",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.social.3.5")),
               children: [
                 {
                   value: 3,
@@ -266,8 +222,7 @@ const sunburstData = {
               ],
             },
             {
-              name: "Strong city-wide identity & culture",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.social.3.6")),
               children: [
                 {
                   value: 3,
@@ -278,8 +233,18 @@ const sunburstData = {
               ],
             },
             {
-              name: "Actively engaged citizens",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.social.3.7")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.social.3.8")),
               children: [
                 {
                   value: 3,
@@ -290,20 +255,7 @@ const sunburstData = {
               ],
             },
             {
-              name: "Practices and drills involving public and professionals",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Adequate education for all",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.social.3.9")),
               children: [
                 {
                   value: 3,
@@ -314,11 +266,10 @@ const sunburstData = {
               ],
             },
             {
-              name: "Major community buildings, religious buildings, and historic/cultural assets",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.social.3.10")),
               children: [
                 {
-                  value: 7,
+                  value: 6,
                   itemStyle: { opacity: 0.3 },
                   tooltip: { show: false },
                   emphasis: { disabled: true },
@@ -326,8 +277,51 @@ const sunburstData = {
               ],
             },
             {
-              name: "Relevant skills & training",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.social.3.11")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.social.3.12")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.social.3.13")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.social.3.14")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.social.3.15")),
               children: [
                 {
                   value: 3,
@@ -340,13 +334,13 @@ const sunburstData = {
           ],
         },
         {
-          name: "Ecosystem Services",
+          name: computed(() => t("echarts.social.4.name")),
           children: [
             {
-              name: "Awareness of ecosystem services being provided to the city from natural capital beyond its administrative borders",
+              name: computed(() => t("echarts.social.4.1")),
               children: [
                 {
-                  value: 8,
+                  value: 6,
                   itemStyle: { opacity: 0.3 },
                   tooltip: { show: false },
                   emphasis: { disabled: true },
@@ -354,8 +348,275 @@ const sunburstData = {
               ],
             },
             {
-              name: "Awareness of functions or services that natural capital provides for the city",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.social.4.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: computed(() => t("echarts.social.5.name")),
+          children: [
+            {
+              name: computed(() => t("echarts.social.5.1")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.social.5.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.social.5.3")),
+              children: [
+                {
+                  value: 5,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.social.5.4")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: computed(() => t("echarts.social.6.name")),
+          children: [
+            {
+              name: computed(() => t("echarts.social.6.1")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.social.6.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        
+      ],
+    },
+    {//Economic Start
+      name: computed(() => t("echarts.economic.name")),
+      children: [
+        {
+          name: computed(() => t("echarts.economic.1.name")),
+          children: [
+            {
+              name: computed(() => t("echarts.economic.1.1")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.1.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.1.3")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.1.4")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: computed(() => t("echarts.economic.2.name")),
+          children: [
+            {
+              name: computed(() =>t("echarts.economic.2.1")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.2.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.2.3")),
+              children: [
+                {
+                  value: 5,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() =>t("echarts.economic.2.4")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.2.5")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.2.6")),
+              children: [
+                {
+                  value: 5,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() =>t("echarts.economic.2.7")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.2.8")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.2.9")),
+              children: [
+                {
+                  value: 5,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.2.10")),
+              children: [
+                {
+                  value: 5,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.2.11")),
+              children: [
+                {
+                  value: 5,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.economic.2.12")),
               children: [
                 {
                   value: 5,
@@ -368,10 +629,10 @@ const sunburstData = {
           ],
         },
         {
-          name: "Planning Resilience",
+          name: computed(() => t("echarts.economic.3.name")),
           children: [
             {
-              name: "Public education towards awareness of hazard, risk and disaster information",
+              name: computed(() => t("echarts.economic.3.1")),
               children: [
                 {
                   value: 6,
@@ -382,7 +643,7 @@ const sunburstData = {
               ],
             },
             {
-              name: "Safe places/havens and the evacuation routes",
+              name: computed(() => t("echarts.economic.3.2")),
               children: [
                 {
                   value: 3,
@@ -393,21 +654,10 @@ const sunburstData = {
               ],
             },
             {
-              name: "Risk and resilience training to all sectors of the city including government, business, NGOs and community",
+              name: computed(() => t("echarts.economic.3.3")),
               children: [
                 {
-                  value: 8,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Awareness of equipment and supply needed + provision",
-              children: [
-                {
-                  value: 4,
+                  value: 3,
                   itemStyle: { opacity: 0.3 },
                   tooltip: { show: false },
                   emphasis: { disabled: true },
@@ -417,10 +667,31 @@ const sunburstData = {
           ],
         },
         {
-          name: "Security services",
+          name: computed(() => t("echarts.economic.4.name")),
           children: [
             {
-              name: "Effective systems to deter crime",
+              name: computed(() => t("echarts.economic.4.1")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+    {//Institutional start
+      name: computed(() => t("echarts.institutional.name")),
+      children: [
+        {
+          name: computed(() => t("echarts.institutional.1.name")),
+          children: [
+            {
+              name: computed(() => t("echarts.institutional.1.1")),
               children: [
                 {
                   value: 3,
@@ -431,8 +702,385 @@ const sunburstData = {
               ],
             },
             {
-              name: "High levels of crime are observed",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.institutional.1.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.3")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.4")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.5")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.6")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.7")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.8")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.9")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.10")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.11")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.12")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.13")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.14")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.15")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.1.16")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: computed(() => t("echarts.institutional.2.name")),
+          children: [
+            {
+              name: computed(() =>t("echarts.institutional.2.1")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.2.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: computed(() => t("echarts.institutional.3.name")),
+          children: [
+            {
+              name: computed(() => t("echarts.institutional.3.1")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.3")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.4")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.5")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.6")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.7")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.8")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.9")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.10")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.11")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.3.12")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: computed(() => t("echarts.institutional.4.name")),
+          children: [
+            {
+              name: computed(() => t("echarts.institutional.4.1")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.4.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.4.3")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.4.4")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.institutional.4.5")),
               children: [
                 {
                   value: 3,
@@ -446,150 +1094,14 @@ const sunburstData = {
         },
       ],
     },
-    {
-      name: "ECO-\nNOMIC",
+    {//Physical start
+      name: computed(() => t("echarts.physical.name")),
       children: [
         {
-          name: "Economic activities",
+          name: computed(() => t("echarts.physical.1.name")),
           children: [
             {
-              name: "Diverse economic base",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Industrial areas including ports, industrial zones, and factories",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 5,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Supportive financing mechanisms",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Economic facilities (banks, business centres, shopping malls, markets, etc.)",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Economic Impact",
-          children: [
-            {
-              name: "Businesses with a documented business continuity plan",
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Knowledge to funding opportunities (for local economy and recovery)",
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Attractive business environment",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Economic impact",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Level of insurance cover exists in the city, across all sectors - business and community",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Incentives for business and society to support resilience building",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Planned investments",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Comprehensive business continuity planning",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.physical.1.1")),
               children: [
                 {
                   value: 3,
@@ -600,330 +1112,7 @@ const sunburstData = {
               ],
             },
             {
-              name: "Inclusive labour policies",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Local business development and innovation",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Strong integration with regional & global economies",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Economic activities, including commercial zones, central business districts, hotels, and tourist facilities",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 7,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Planning Resilience",
-          children: [
-            {
-              name: "Financial plan and budget for resilience, including contingency funds",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Projected changes to population densities and economic activity",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Densities",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Governance",
-          children: [
-            {
-              name: "Changes in the overall city's boundaries",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
-    {
-      name: "INSTI-\nTUTIONAL",
-      children: [
-        {
-          name: "Governance",
-          children: [
-            {
-              name: "Disaster management authority have sufficient staffing capacity",
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Consultative planning process",
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Informal development areas",
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Robust planning approval process",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Well-managed public finances",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Appropriate government decision-making",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Effective co-ordination with other government bodies",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Proactive multi-stakeholder collaboration",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Is there a multi-agency/sectoral mechanism with appropriate authority and resources to address disaster risk reduction?",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 8,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Urban development to promote resilience",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Building codes or standards address hazards and risks",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Enforcement and verification of zoning bulding zoning and regulations",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "FAIR Data sharing to enhance resilience",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Plan for post-event recovery and reconstruction, including economic reboot, societal aspects",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 7,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Proactive corruption prevention",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Comprehensive city monitoring & data management",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Land use",
-          children: [
-            {
-              name: "Land use designations",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Changes in land use designations",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.physical.1.2")),
               children: [
                 {
                   value: 3,
@@ -936,10 +1125,10 @@ const sunburstData = {
           ],
         },
         {
-          name: "Planning for risk and disaster",
+          name: computed(() => t("echarts.physical.2.name")),
           children: [
             {
-              name: "Disaster and risk reduction in urban planning instruments according to Sendai framework",
+              name: computed(() =>t("echarts.physical.2.1")),
               children: [
                 {
                   value: 6,
@@ -950,215 +1139,7 @@ const sunburstData = {
               ],
             },
             {
-              name: "Vulnerability mapping and monitoring (vulnerable groups and assets, dissaster scenario analysis)",
-              children: [
-                {
-                  value: 7,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Do post-event assessment processes incorporate failure analyses and the ability to capture lessons learned that then feed into design and delivery of rebuilding projects?",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 10,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Early warning system and reaching level",
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Comprehensive government emergency management",
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Integration of resilience in city functions / portfolios",
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Emergency operations centre: interoperability and inter-agency implementation and coordination",
-              children: [
-                {
-                  value: 7,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Disaster management / preparedness / emergency response plan",
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Appropriate land use and zoning",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Appropriately land use planning considering risk, hazards and vulnerability",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 7,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Projected changes in location of vulnerable populations",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Public health systems",
-          children: [
-            {
-              name: "Adequate access to quality healthcare",
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Emergency medical care",
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Effective emergency response services",
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Robust public health systems",
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Security services: fire services, police stations, etc.",
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-      ],
-    },
-    {
-      name: "PHYSICAL",
-      children: [
-        {
-          name: "Communication",
-          children: [
-            {
-              name: "Communication: radio/TV station, cell phone towers and existing telecommunication infrastructure",
-              children: [
-                {
-                  value: 7,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Reliable communications technology",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.physical.2.2")),
               children: [
                 {
                   value: 3,
@@ -1171,251 +1152,10 @@ const sunburstData = {
           ],
         },
         {
-          name: "Ecosystem Services",
+          name: computed(() => t("echarts.physical.3.name")),
           children: [
             {
-              name: "Integration of green and blue infrastructure into city policy and projects",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Natural elements, mangrove, hills, rivers, plantations, among others",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 5,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Governance",
-          children: [
-            {
-              name: "Secure technology networks",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "City boundaries and sub-municipal boundaries (e.g., districts, wards)",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Land Use",
-          children: [
-            {
-              name: "(identify, as appropriate)industrial areas, agricultural areas, environmentally sensitive areas, main public spaces (e.g. public squares, parks, sport and recreation facilities, etc.), other relevant land uses",
-              children: [
-                {
-                  value: 10,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Major infrastructure",
-          children: [
-            {
-              name: "Major infrastructure: water supply, sanitation and sewerage, roads, highways, bridges, ports, power supply, among others",
-              children: [
-                {
-                  value: 8,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Critical infrastructure: mapping, planning and protection strategies",
-              children: [
-                {
-                  value: 5,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Infrastructure and services damaged",
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Protective infrastructure: well-designed and well-built based on risk information",
-              children: [
-                {
-                  value: 5,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: 'Water - potable and Sanitation, Energy, Transport, Communications, Health care: ensured minimal provision for "most severe" disaster scenario',
-              children: [
-                {
-                  value: 9,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Major roads",
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Transportation: main roads, bus station, airport, train station & rail tracks, etc.",
-              children: [
-                {
-                  value: 5,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Major Infrastructure & Planning Resilience",
-          children: [
-            {
-              name: "Diligent maintenance & continuity",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Flexible infrastructure services",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Retained spare capacity",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 3,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-          ],
-        },
-        {
-          name: "Planning for risk and disaster",
-          children: [
-            {
-              name: "Housing destroyed and damaged",
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Affected areas",
-              children: [
-                {
-                  value: 2,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Topography: elevation, water bodies",
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Hazard mapping and monitoring (common awareness)",
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Shared understanding of infrastructure risk (authorities, utility providers, infrastructure management)",
+              name: computed(() => t("echarts.physical.3.1")),
               children: [
                 {
                   value: 6,
@@ -1426,58 +1166,10 @@ const sunburstData = {
               ],
             },
             {
-              name: "Hazard mapping and monitoring (clear and regular mapping)",
+              name: computed(() => t("echarts.physical.3.2")),
               children: [
                 {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Hazard mitigation infrastructure, including location of sea walls, dikes, retention ponds",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Identification of cascading effects",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 4,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Areas of your city that were affected by natural hazards in the past, such as floods, strong winds, fire, erosion, landslides, etc.",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 8,
-                  itemStyle: { opacity: 0.3 },
-                  tooltip: { show: false },
-                  emphasis: { disabled: true },
-                },
-              ],
-            },
-            {
-              name: "Changes in intensity, frequency, and location of hazards based on hazard modeling",
-              itemStyle: { opacity: 0.6 },
-              children: [
-                {
-                  value: 5,
+                  value: 3,
                   itemStyle: { opacity: 0.3 },
                   tooltip: { show: false },
                   emphasis: { disabled: true },
@@ -1487,10 +1179,26 @@ const sunburstData = {
           ],
         },
         {
-          name: "Planning Resilience",
+          name: computed(() => t("echarts.physical.4.name")),
           children: [
             {
-              name: '% of education structures at risk of damage from "most probable" and "most severe" scenarios',
+              name: computed(() => t("echarts.physical.4.1")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: computed(() => t("echarts.physical.5.name")),
+          children: [
+            {
+              name: computed(() => t("echarts.physical.5.1")),
               children: [
                 {
                   value: 6,
@@ -1501,7 +1209,7 @@ const sunburstData = {
               ],
             },
             {
-              name: "Adequate continuity for critical assets & services",
+              name: computed(() => t("echarts.physical.5.2")),
               children: [
                 {
                   value: 3,
@@ -1512,7 +1220,18 @@ const sunburstData = {
               ],
             },
             {
-              name: "Comprehensive hazard monitoring and risk assessment",
+              name: computed(() => t("echarts.physical.5.3")),
+              children: [
+                {
+                  value: 5,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.5.4")),
               children: [
                 {
                   value: 3,
@@ -1523,7 +1242,7 @@ const sunburstData = {
               ],
             },
             {
-              name: "First responder equipment, with military or civilian back up",
+              name: computed(() => t("echarts.physical.5.5")),
               children: [
                 {
                   value: 3,
@@ -1534,10 +1253,10 @@ const sunburstData = {
               ],
             },
             {
-              name: "Food, shelter, staple goods and fuel to respond to emergency of disaster scenarios",
+              name: computed(() => t("echarts.physical.5.6")),
               children: [
                 {
-                  value: 4,
+                  value: 3,
                   itemStyle: { opacity: 0.3 },
                   tooltip: { show: false },
                   emphasis: { disabled: true },
@@ -1545,10 +1264,26 @@ const sunburstData = {
               ],
             },
             {
-              name: "Vulnerability and risk",
+              name: computed(() => t("echarts.physical.5.7")),
               children: [
                 {
-                  value: 2,
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: computed(() => t("echarts.physical.6.name")),
+          children: [
+            {
+              name: computed(() => t("echarts.physical.6.1")),
+              children: [
+                {
+                  value: 6,
                   itemStyle: { opacity: 0.3 },
                   tooltip: { show: false },
                   emphasis: { disabled: true },
@@ -1556,8 +1291,215 @@ const sunburstData = {
               ],
             },
             {
-              name: "Diverse and affordable transport networks",
-              itemStyle: { opacity: 0.6 },
+              name: computed(() => t("echarts.physical.6.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.6.3")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: computed(() => t("echarts.physical.7.name")),
+          children: [
+            {
+              name: computed(() => t("echarts.physical.7.1")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.7.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.7.3")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.7.4")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.7.5")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.7.6")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.7.7")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.7.8")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.7.9")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.7.10")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: computed(() => t("echarts.physical.8.name")),
+          children: [
+            {
+              name: computed(() => t("echarts.physical.8.1")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.8.2")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.8.3")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.8.4")),
+              children: [
+                {
+                  value: 6,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.8.5")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.8.6")),
+              children: [
+                {
+                  value: 3,
+                  itemStyle: { opacity: 0.3 },
+                  tooltip: { show: false },
+                  emphasis: { disabled: true },
+                },
+              ],
+            },
+            {
+              name: computed(() => t("echarts.physical.8.7")),
               children: [
                 {
                   value: 3,
@@ -1571,5 +1513,6 @@ const sunburstData = {
         },
       ],
     },
+
   ],
 };

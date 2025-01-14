@@ -167,8 +167,9 @@
         "4": "Protective infrastructure: well-designed and well-built based on risk information",
         "5": "Water - potable and Sanitation, Energy, Transport, Communications, Health care: ensured minimal provision for \"most severe\" disaster scenario",
         "6": "Major roads",
-        "7": "Transportation: main roads, bus station, airport, train station & rail tracks, etc."
-      },
+        "7": "Transportation: main roads, bus station, airport, train station & rail tracks, etc.",
+        "8": "Critical infrastructure: mapping, planning and protection strategies"
+      },	
       "6": {
         "name": "Major Infrastructure & Planning Resilience",
         "1": "Diligent maintenance & continuity",
@@ -208,7 +209,7 @@
       "Resourcefulness": "Resourcefulness",
       "Inclusiveness": "Inclusiveness",
       "Reflectiveness": "Reflectiveness",
-      "Flexiblity": "Flexiblity"
+      "Flexibility": "Flexibility"
     }
   }
 }
