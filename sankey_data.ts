@@ -717,37 +717,37 @@ const links = [
     source:
       "Communication: radio/TV station, cell phone towers and existing telecommunication infrastructure",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Communication: radio/TV station, cell phone towers and existing telecommunication infrastructure",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Communication: radio/TV station, cell phone towers and existing telecommunication infrastructure",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Communication: radio/TV station, cell phone towers and existing telecommunication infrastructure",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Communication: radio/TV station, cell phone towers and existing telecommunication infrastructure",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Communication: radio/TV station, cell phone towers and existing telecommunication infrastructure",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Physical",
@@ -1032,32 +1032,32 @@ const links = [
   {
     source: "Flexible infrastructure services",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Flexible infrastructure services",
-    target: "Flexibility",
-    value: 0.17,
+    target: "Robustness",
+    value: 0.16,
   },
   {
     source: "Flexible infrastructure services",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Flexible infrastructure services",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Flexible infrastructure services",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Flexible infrastructure services",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Physical",
@@ -1211,37 +1211,37 @@ const links = [
     source:
       'Water - potable and Sanitation, Energy, Transport, Communications, Health care: ensured minimal provision for "most severe" disaster scenario',
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       'Water - potable and Sanitation, Energy, Transport, Communications, Health care: ensured minimal provision for "most severe" disaster scenario',
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       'Water - potable and Sanitation, Energy, Transport, Communications, Health care: ensured minimal provision for "most severe" disaster scenario',
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       'Water - potable and Sanitation, Energy, Transport, Communications, Health care: ensured minimal provision for "most severe" disaster scenario',
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       'Water - potable and Sanitation, Energy, Transport, Communications, Health care: ensured minimal provision for "most severe" disaster scenario',
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       'Water - potable and Sanitation, Energy, Transport, Communications, Health care: ensured minimal provision for "most severe" disaster scenario',
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Physical",
@@ -1251,32 +1251,32 @@ const links = [
   {
     source: "Major roads",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Major roads",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Major roads",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Major roads",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Major roads",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Major roads",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Physical",
@@ -1288,37 +1288,37 @@ const links = [
     source:
       "Transportation: main roads, bus station, airport, train station & rail tracks, etc.",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Transportation: main roads, bus station, airport, train station & rail tracks, etc.",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Transportation: main roads, bus station, airport, train station & rail tracks, etc.",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Transportation: main roads, bus station, airport, train station & rail tracks, etc.",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Transportation: main roads, bus station, airport, train station & rail tracks, etc.",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Transportation: main roads, bus station, airport, train station & rail tracks, etc.",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Physical",
@@ -1570,37 +1570,37 @@ const links = [
     source:
       "Hazard mitigation infrastructure, including location of sea walls, dikes, retention ponds",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Hazard mitigation infrastructure, including location of sea walls, dikes, retention ponds",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Hazard mitigation infrastructure, including location of sea walls, dikes, retention ponds",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Hazard mitigation infrastructure, including location of sea walls, dikes, retention ponds",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Hazard mitigation infrastructure, including location of sea walls, dikes, retention ponds",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Hazard mitigation infrastructure, including location of sea walls, dikes, retention ponds",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Physical",
@@ -1673,37 +1673,37 @@ const links = [
     source:
       "Changes in intensity, frequency, and location of hazards based on hazard modeling",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Changes in intensity, frequency, and location of hazards based on hazard modeling",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Changes in intensity, frequency, and location of hazards based on hazard modeling",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Changes in intensity, frequency, and location of hazards based on hazard modeling",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Changes in intensity, frequency, and location of hazards based on hazard modeling",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Changes in intensity, frequency, and location of hazards based on hazard modeling",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Physical",
@@ -1743,32 +1743,32 @@ const links = [
   {
     source: "Comprehensive hazard monitoring and risk assessment",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Comprehensive hazard monitoring and risk assessment",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Comprehensive hazard monitoring and risk assessment",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Comprehensive hazard monitoring and risk assessment",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Comprehensive hazard monitoring and risk assessment",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Comprehensive hazard monitoring and risk assessment",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
 
   {
@@ -1907,32 +1907,32 @@ const links = [
   {
     source: "Appropriate government decision-making",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Appropriate government decision-making",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Appropriate government decision-making",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Appropriate government decision-making",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Appropriate government decision-making",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Appropriate government decision-making",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -1967,32 +1967,32 @@ const links = [
   {
     source: "Proactive multi-stakeholder collaboration",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Proactive multi-stakeholder collaboration",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Proactive multi-stakeholder collaboration",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Proactive multi-stakeholder collaboration",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Proactive multi-stakeholder collaboration",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Proactive multi-stakeholder collaboration",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -2152,32 +2152,32 @@ const links = [
   {
     source: "Appropriate land use and zoning",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Appropriate land use and zoning",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Appropriate land use and zoning",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Appropriate land use and zoning",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Appropriate land use and zoning",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Appropriate land use and zoning",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -2362,32 +2362,32 @@ const links = [
   {
     source: "Building codes or standards address hazards and risks",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Building codes or standards address hazards and risks",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Building codes or standards address hazards and risks",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Building codes or standards address hazards and risks",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Building codes or standards address hazards and risks",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Building codes or standards address hazards and risks",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -2459,37 +2459,37 @@ const links = [
     source:
       "Plan for post-event recovery and reconstruction, including economic reboot, societal aspects",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Plan for post-event recovery and reconstruction, including economic reboot, societal aspects",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Plan for post-event recovery and reconstruction, including economic reboot, societal aspects",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Plan for post-event recovery and reconstruction, including economic reboot, societal aspects",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Plan for post-event recovery and reconstruction, including economic reboot, societal aspects",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Plan for post-event recovery and reconstruction, including economic reboot, societal aspects",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -2519,32 +2519,32 @@ const links = [
   {
     source: "Land use designations",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Land use designations",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Land use designations",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Land use designations",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Land use designations",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Land use designations",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -2554,32 +2554,32 @@ const links = [
   {
     source: "Changes in land use designations",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Changes in land use designations",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Changes in land use designations",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Changes in land use designations",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Changes in land use designations",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Changes in land use designations",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
 
   {
@@ -2592,37 +2592,37 @@ const links = [
     source:
       "Disaster and risk reduction in urban planning instruments according to Sendai framework",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Disaster and risk reduction in urban planning instruments according to Sendai framework",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Disaster and risk reduction in urban planning instruments according to Sendai framework",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Disaster and risk reduction in urban planning instruments according to Sendai framework",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Disaster and risk reduction in urban planning instruments according to Sendai framework",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Disaster and risk reduction in urban planning instruments according to Sendai framework",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -2634,43 +2634,37 @@ const links = [
     source:
       "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
     target: "Inclusiveness",
-    value: 0.17,
-  },
-  {
-    source:
-      "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
-    target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -2753,32 +2747,32 @@ const links = [
   {
     source: "Integration of resilience in city functions / portfolios",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Integration of resilience in city functions / portfolios",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Integration of resilience in city functions / portfolios",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Integration of resilience in city functions / portfolios",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Integration of resilience in city functions / portfolios",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Integration of resilience in city functions / portfolios",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -2874,37 +2868,37 @@ const links = [
     source:
       "Appropriately land use planning considering risk, hazards and vulnerability",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Appropriately land use planning considering risk, hazards and vulnerability",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Appropriately land use planning considering risk, hazards and vulnerability",
     target: "Integration",
-    value: 0.25,
+    value: 0.16,
   },
   {
     source:
       "Appropriately land use planning considering risk, hazards and vulnerability",
     target: "Inclusiveness",
-    value: 0.25,
+    value: 0.16,
   },
   {
     source:
       "Appropriately land use planning considering risk, hazards and vulnerability",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Appropriately land use planning considering risk, hazards and vulnerability",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -2916,37 +2910,37 @@ const links = [
     source:
       "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -2956,32 +2950,32 @@ const links = [
   {
     source: "Projected changes in location of vulnerable populations",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Projected changes in location of vulnerable populations",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Projected changes in location of vulnerable populations",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Projected changes in location of vulnerable populations",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Projected changes in location of vulnerable populations",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Projected changes in location of vulnerable populations",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -3051,32 +3045,32 @@ const links = [
   {
     source: "Robust public health systems",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Robust public health systems",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Robust public health systems",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Robust public health systems",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Robust public health systems",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Robust public health systems",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Institutional",
@@ -3176,32 +3170,32 @@ const links = [
   {
     source: "Comprehensive business continuity planning",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Comprehensive business continuity planning",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Comprehensive business continuity planning",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Comprehensive business continuity planning",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Comprehensive business continuity planning",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Comprehensive business continuity planning",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Economic",
@@ -3211,37 +3205,32 @@ const links = [
   {
     source: "Diverse economic base",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Diverse economic base",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Diverse economic base",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Diverse economic base",
     target: "Inclusiveness",
-    value: 0.17,
-  },
-  {
-    source: "Diverse economic base",
-    target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Diverse economic base",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Diverse economic base",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Economic",
@@ -3251,32 +3240,32 @@ const links = [
   {
     source: "Attractive business environment",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Attractive business environment",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Attractive business environment",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Attractive business environment",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Attractive business environment",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Attractive business environment",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Economic",
@@ -3447,32 +3436,32 @@ const links = [
   {
     source: "Economic impact",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Economic impact",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Economic impact",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Economic impact",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Economic impact",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Economic impact",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Economic",
@@ -3482,32 +3471,32 @@ const links = [
   {
     source: "Incentives for business and society to support resilience building",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Incentives for business and society to support resilience building",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Incentives for business and society to support resilience building",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Incentives for business and society to support resilience building",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Incentives for business and society to support resilience building",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Incentives for business and society to support resilience building",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Economic",
@@ -3763,32 +3752,32 @@ const links = [
   {
     source: "Inclusive access to safe drinking water",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Inclusive access to safe drinking water",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Inclusive access to safe drinking water",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Inclusive access to safe drinking water",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Inclusive access to safe drinking water",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Inclusive access to safe drinking water",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -3798,32 +3787,32 @@ const links = [
   {
     source: "Adequate affordable energy supply",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Adequate affordable energy supply",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Adequate affordable energy supply",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Adequate affordable energy supply",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Adequate affordable energy supply",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Adequate affordable energy supply",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -3956,37 +3945,37 @@ const links = [
     source:
       "Training programmes provided to the most vulnerable and at need populations",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Training programmes provided to the most vulnerable and at need populations",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Training programmes provided to the most vulnerable and at need populations",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Training programmes provided to the most vulnerable and at need populations",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Training programmes provided to the most vulnerable and at need populations",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Training programmes provided to the most vulnerable and at need populations",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -3998,37 +3987,37 @@ const links = [
     source:
       "Main public facilities: university, schools, health centres, markets, etc.",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Main public facilities: university, schools, health centres, markets, etc.",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Main public facilities: university, schools, health centres, markets, etc.",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Main public facilities: university, schools, health centres, markets, etc.",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Main public facilities: university, schools, health centres, markets, etc.",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Main public facilities: university, schools, health centres, markets, etc.",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -4078,32 +4067,32 @@ const links = [
   {
     source: "Practices and drills involving public and professionals",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Practices and drills involving public and professionals",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Practices and drills involving public and professionals",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Practices and drills involving public and professionals",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Practices and drills involving public and professionals",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Practices and drills involving public and professionals",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -4113,32 +4102,32 @@ const links = [
   {
     source: "Widespread community awareness & preparedness",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Widespread community awareness & preparedness",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Widespread community awareness & preparedness",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Widespread community awareness & preparedness",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Widespread community awareness & preparedness",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Widespread community awareness & preparedness",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -4148,32 +4137,32 @@ const links = [
   {
     source: "Strong city-wide identity & culture",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Strong city-wide identity & culture",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Strong city-wide identity & culture",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Strong city-wide identity & culture",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Strong city-wide identity & culture",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Strong city-wide identity & culture",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -4183,32 +4172,32 @@ const links = [
   {
     source: "Adequate education for all",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Adequate education for all",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Adequate education for all",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Adequate education for all",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Adequate education for all",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Adequate education for all",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -4218,32 +4207,32 @@ const links = [
   {
     source: "Effective sanitation",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Effective sanitation",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Effective sanitation",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Effective sanitation",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Effective sanitation",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Effective sanitation",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -4485,37 +4474,37 @@ const links = [
     source:
       "Major community buildings, religious buildings, and historic/cultural assets",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Major community buildings, religious buildings, and historic/cultural assets",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Major community buildings, religious buildings, and historic/cultural assets",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Major community buildings, religious buildings, and historic/cultural assets",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Major community buildings, religious buildings, and historic/cultural assets",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Major community buildings, religious buildings, and historic/cultural assets",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     //Not available in spreadsheet
@@ -4539,37 +4528,37 @@ const links = [
     source:
       "Risk and resilience training to all sectors of the city including government, business, NGOs and community",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Risk and resilience training to all sectors of the city including government, business, NGOs and community",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Risk and resilience training to all sectors of the city including government, business, NGOs and community",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Risk and resilience training to all sectors of the city including government, business, NGOs and community",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Risk and resilience training to all sectors of the city including government, business, NGOs and community",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Risk and resilience training to all sectors of the city including government, business, NGOs and community",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -4579,32 +4568,32 @@ const links = [
   {
     source: "Awareness of equipment and supply needed + provision",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Awareness of equipment and supply needed + provision",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Awareness of equipment and supply needed + provision",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Awareness of equipment and supply needed + provision",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Awareness of equipment and supply needed + provision",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Awareness of equipment and supply needed + provision",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -4654,32 +4643,32 @@ const links = [
   {
     source: "High levels of crime are observed",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "High levels of crime are observed",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "High levels of crime are observed",
     target: "Inclusiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "High levels of crime are observed",
     target: "Reflectiveness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "High levels of crime are observed",
     target: "Flexibility",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "High levels of crime are observed",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
@@ -4752,37 +4741,37 @@ const links = [
     source:
       "Awareness of functions or services that natural capital provides for the city",
     target: "Robustness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Awareness of functions or services that natural capital provides for the city",
     target: "Redundancy",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Awareness of functions or services that natural capital provides for the city",
     target: "Diversity",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Awareness of functions or services that natural capital provides for the city",
     target: "Integration",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Awareness of functions or services that natural capital provides for the city",
     target: "Resourcefulness",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source:
       "Awareness of functions or services that natural capital provides for the city",
     target: "Transparency",
-    value: 0.17,
+    value: 0.16,
   },
   {
     source: "Social",
