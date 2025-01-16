@@ -5,7 +5,7 @@
       "name": "SOCIAL",
       "1": {
         "name": "Basic necessities",
-        "1": "Safe & affordable housing",
+        "1": "Safe and affordable housing",
         "2": "Adequate affordable energy supply",
         "3": "Inclusive access to safe drinking water",
         "4": "Effective sanitation",
@@ -50,7 +50,7 @@
       "6": {
         "name": "Security services",
         "1": "Effective systems to deter crime",
-        "2": "High levels of crime are observed"
+        "2": "High levels of crime are observed."
       }
     },
     "economic": {
@@ -103,7 +103,7 @@
         "9": "Is there a multi-agency/sectoral mechanism with appropriate authority and resources to address disaster risk reduction?",
         "10": "Urban development to promote resilience",
         "11": "Building codes or standards address hazards and risks",
-        "12": "Enforcement and verification of zoning bulding zoning and regulations",
+        "12": "Enforcement and verification of zoning building zoning and regulations",
         "13": "FAIR Data sharing to enhance resilience",
         "14": "Plan for post-event recovery and reconstruction, including economic reboot, societal aspects",
         "15": "Proactive corruption prevention",
@@ -117,7 +117,7 @@
       "3": {
         "name": "Planning for risk and disaster",
         "1": "Disaster and risk reduction in urban planning instruments according to Sendai framework",
-        "2": "Vulnerability mapping and monitoring (vulnerable groups and assets, dissaster scenario analysis)",
+        "2": "Vulnerability mapping and monitoring (vulnerable groups and assets, disaster scenario analysis)",
         "3": "Do post-event assessment processes incorporate failure analyses and the ability to capture lessons learned that then feed into design and delivery of rebuilding projects?",
         "4": "Early warning system and reaching level",
         "5": "Comprehensive government emergency management",
@@ -126,7 +126,7 @@
         "8": "Disaster management / preparedness / emergency response plan",
         "9": "Appropriate land use and zoning",
         "10": "Appropriately land use planning considering risk, hazards and vulnerability",
-        "11": "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable",
+        "11": "Locate the various administrative/government buildings in your city, including at the neighbourhood level, as applicable.",
         "12": "Projected changes in location of vulnerable populations"
       },
       "4": {
@@ -135,7 +135,7 @@
         "2": "Emergency medical care",
         "3": "Effective emergency response services",
         "4": "Robust public health systems",
-        "5": "Security services: fire services, police stations, etc."
+        "5": "Security services: fire services, police stations, etc.;"
       }
     },
     "physical": {
@@ -167,9 +167,9 @@
         "4": "Protective infrastructure: well-designed and well-built based on risk information",
         "5": "Water - potable and Sanitation, Energy, Transport, Communications, Health care: ensured minimal provision for \"most severe\" disaster scenario",
         "6": "Major roads",
-        "7": "Transportation: main roads, bus station, airport, train station & rail tracks, etc.",
-        "8": "Critical infrastructure: mapping, planning and protection strategies"
-      },	
+        "7": "Transportation: main roads, bus station, airport, train station & rail tracks, etc.;",
+        "8": "Water, sanitation and energy: primary drainage network, main water tanks/water storage facilities, wastewater treatment infrastructure, etc.;"
+      },
       "6": {
         "name": "Major Infrastructure & Planning Resilience",
         "1": "Diligent maintenance & continuity",
@@ -210,6 +210,11 @@
       "Inclusiveness": "Inclusiveness",
       "Reflectiveness": "Reflectiveness",
       "Flexibility": "Flexibility"
+    },
+    "subtitle": {
+      "dimension": "Urban Dimensions",
+      "indicator": "Measuring Indicators",
+      "capacity": "Resilience Capacities"
     }
   }
 }
